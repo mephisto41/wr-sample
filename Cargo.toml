@@ -4,7 +4,8 @@ version = "0.1.0"
 authors = ["Glenn Watson <gw@intuitionlibrary.com>"]
 
 [dependencies.webrender]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/glennw/webrender"
+branch = "wr-next-next"
 
 [dependencies.webrender_traits]
 git = "https://github.com/servo/webrender_traits"

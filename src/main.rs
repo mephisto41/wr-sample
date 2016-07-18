@@ -135,6 +135,7 @@ fn main() {
         enable_aa: false,
         enable_msaa: false,
         enable_profiler: true,
+        debug: false,
     };
 
     let (mut renderer, sender) = webrender::renderer::Renderer::new(opts);
